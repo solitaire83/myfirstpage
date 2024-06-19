@@ -1,0 +1,229 @@
+/* @font-face {
+  font-family: Asap;
+  src: url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900");
+  font-display: swap;
+} */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.pagina {
+  /* background-color: blue; */
+  width: 100%;
+  height: auto;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.navdiv {
+  /* background-color: pink; */
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: -10px;
+  color: white;
+  font-family: Asap, sans-serif;
+  /* font-weight: bold; */
+  font-weight: 500;
+}
+
+.navdiv img {
+  width: 100px;
+  height: 37px;
+  position: relative;
+  right: 40px;
+}
+
+.navdiv li {
+  list-style: none;
+  display: inline;
+  /* margin: 5px; */
+  padding: 10px 24px;
+
+  font-size: 18px;
+}
+
+.div1 {
+  background-image: url("https://itschool.ro/_next/static/media/anniversary-background-image.487ae680.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 825px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 75%;
+  height: 500px;
+  /* background: red; */
+
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.reducere {
+  width: 235px;
+  height: 20px;
+  background-color: #9dddfe;
+  font-size: 14px;
+  padding: 10px 16px;
+  font-family: Asap, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 0.4rem;
+  margin-top: 65px;
+}
+
+.content h1 {
+  font-size: 100px;
+  text-align: center;
+  font-weight: 400;
+  color: white;
+  margin-top: 1px;
+  font-family: Asap, sans-serif;
+}
+
+.content p {
+  margin: -50px;
+  color: rgba(252, 250, 247, 0.6);
+  font-family: Asap, sans-serif;
+
+  display: flex;
+  align-items: center;
+}
+
+.absolvent1 {
+  width: 32px;
+  height: 32px;
+  margin: 0px 0px 0px -10px;
+  border-radius: 50%;
+  border: 1px solid rgb(16, 131, 191);
+  margin: 5px;
+  position: relative;
+  z-index: 5;
+}
+
+.absolvent2 {
+  width: 32px;
+  height: 32px;
+  margin: 0px 0px 0px -10px;
+  border-radius: 50%;
+  border: 1px solid rgb(16, 131, 191);
+  margin-left: -1rem;
+  margin: -12px;
+  position: relative;
+  z-index: 4;
+}
+
+.absolvent3 {
+  width: 32px;
+  height: 32px;
+  margin: 0px 0px 0px -10px;
+  border-radius: 50%;
+  border: 1px solid rgb(16, 131, 191);
+  margin-left: -1rem;
+  margin: 2px;
+  position: relative;
+  z-index: 3;
+}
+
+.absolvent4 {
+  width: 32px;
+  height: 32px;
+  margin: 0px 0px 0px -10px;
+  border-radius: 50%;
+  border: 1px solid rgb(16, 131, 191);
+  margin-left: -1rem;
+  margin: -15px;
+  position: relative;
+  z-index: 2;
+}
+
+.absolvent5 {
+  width: 32px;
+  height: 32px;
+  margin: 0px 0px 0px -10px;
+  border-radius: 50%;
+  border: 1px solid rgb(16, 131, 191);
+  margin-left: -1rem;
+  margin: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.vezicursuribtn {
+  background-color: #017bbb;
+  color: white;
+  font-size: 1.6rem;
+  border-radius: 24px;
+  margin-top: 80px;
+  width: 264px;
+  height: 50px;
+  font-size: 16px;
+  border: #9dddfe;
+}
+
+.vezicursuribtn:hover {
+  cursor: pointer;
+  background-color: #0d5874;
+}
+
+.parteneri {
+  display: flex;
+  gap: 3.6rem;
+  justify-content: center;
+  position: absolute;
+  margin-top: 580px;
+}
+
+.div2 {
+  background-image: url("https://itschool.ro/_next/static/media/background.570f46a1.svg");
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.content2 {
+  /* background-color: pink; */
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.paragraf2 {
+  color: #191e3066;
+  font-size: 16px;
+  font-family: Asap, sans-serif;
+  /* text-align: center; */
+}
+
+.div2 h2 {
+  font-family: Asap, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1.22;
+  text-align: center;
+  color: rgb(25, 38, 48);
+  margin: 0px;
+}

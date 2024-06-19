@@ -1,0 +1,231 @@
+<html>
+  <head>
+    <title>Informatii CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="pagcss">
+      <h1
+        style="
+          text-align: center;
+          color: rgb(249, 249, 249);
+          font-family: Poetsen One;
+          background-color: rgb(54, 118, 109);
+          padding: 7px;
+          border-radius: 15px;
+        "
+      >
+        Informatii CSS
+      </h1>
+      <div class="navdiv">
+        <div class="navbar">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="wikipedia.html">Wikipedia</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="tabele.html">Tabele</a></li>
+            <li><a href="../despre.html">Despre</a></li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <hr />
+    </div>
+    <section class="infos">
+      <div class="infoContent">
+        <h3>Proprietati si valori populare in CSS</h3>
+        <p><b>Proprietati pentru font/text:</b></p>
+        <ul style="margin-top: -10px">
+          <li style="text-decoration: underline; font-weight: bold">
+            font-family
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -2px">
+            <b>Exemplu</b>: font-family: Arial, Helvetica, sans-serif;
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -5px">
+            <b>Descriere</b>: font-family este de fapt o lista de fonturi din
+            care browserul va folosi in ordinea in care le recunoaste (primul
+            folosit va fi primul din lista, daca nu este recunoscut il foloseste
+            pe al doilea si tot asa mai departe).
+          </li>
+
+          <li style="text-decoration: underline; font-weight: bold">
+            font-weight
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -2px">
+            <b>Exemplu</b>: font-weight: 400;
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -5px">
+            <b>Descriere</b>: Proprietatea font-weight specifica greutatea
+            fontului folosind valori numerice sau BOLD, BOLDER, LIGHTER.
+          </li>
+
+          <li style="text-decoration: underline; font-weight: bold">
+            font-size
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -2px">
+            <b>Exemplu</b>: font-size: 30px;
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -5px">
+            <b>Descriere</b>: Prin aceasta proprietate stabilim dimensiunea
+            fontului care poate fi exprimata in pixeli (px), puncte (pt) sau
+            procente (%)
+          </li>
+
+          <li style="text-decoration: underline; font-weight: bold">
+            text-decoration
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -2px">
+            <b>Exemplu</b>: text-decoration: none;
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -5px">
+            <b>Descriere</b>: Proprietatea text-decoration este utilizată pentru
+            a seta sau elimina decorațiunile din text.
+          </li>
+
+          <li style="text-decoration: underline; font-weight: bold">
+            text-align
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -2px">
+            <b>Exemplu</b>: text-align: center;
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -5px">
+            <b>Descriere</b>: Prin aceasta proprietate putem pozitiona textul la
+            dreapta, stanga sau centru.
+          </li>
+        </ul>
+
+        <p><b>Proprietati pentru margini/dimensiuni/bordere:</b></p>
+        <ul style="margin-top: -10px">
+          <li style="text-decoration: underline; font-weight: bold">width</li>
+          <li style="list-style: none; margin: 5px; margin-top: -2px">
+            <b>Exemplu</b>: width: 500px;
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -5px">
+            <b>Descriere</b>: Folosind proprietatea width stabilim latimea
+            elementelor.
+          </li>
+
+          <li style="text-decoration: underline; font-weight: bold">height</li>
+          <li style="list-style: none; margin: 5px; margin-top: -2px">
+            <b>Exemplu</b>: height: 500px;
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -5px">
+            <b>Descriere</b>: Folosind proprietatea height stabilim inaltimea
+            elementelor.
+          </li>
+
+          <li style="text-decoration: underline; font-weight: bold">margin</li>
+          <li style="list-style: none; margin: 5px; margin-top: -2px">
+            <b>Exemplu</b>: margin: 15px;
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -5px">
+            <b>Descriere</b>: Aceasta proprietate se foloseste pentru a creea
+            spatiu intre elemente sau inafara bordurilor. Se pot adauga margini
+            in directiile (sus, jos, stanga si dreapta). <br />
+            Pentru a stabili in ce directie se adauga spatiu, se folosesc
+            urmatoarele proprietati:<br />
+            <strong style="margin: 20px">margin-top</strong><br />
+            <strong style="margin: 20px">margin-bottom</strong><br />
+            <strong style="margin: 20px">margin-left</strong><br />
+            <strong style="margin: 20px">margin-right</strong>
+          </li>
+
+          <li style="text-decoration: underline; font-weight: bold">padding</li>
+          <li style="list-style: none; margin: 5px; margin-top: -2px">
+            <b>Exemplu</b>: padding: 15px;
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -5px">
+            <b>Descriere</b>: Aceasta proprietate se foloseste pentru a creea
+            spatiu intre continutul elementelor si marginile acestora. Se pot
+            adauga padding-uri in directiile (sus, jos, stanga si dreapta).
+            <br />
+            Pentru a stabili in ce directie se adauga spatiu, se folosesc
+            urmatoarele proprietati:<br />
+            <strong style="margin: 20px">padding-top</strong><br />
+            <strong style="margin: 20px">padding-bottom</strong><br />
+            <strong style="margin: 20px">padding-left</strong><br />
+            <strong style="margin: 20px">padding-right</strong>
+          </li>
+
+          <li style="text-decoration: underline; font-weight: bold">border</li>
+          <li style="list-style: none; margin: 5px; margin-top: -2px">
+            <b>Exemplu</b>: border: 5px solid;
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -5px">
+            <b>Descriere</b>: Aceasta proprietate se foloseste pentru a adauga
+            borduri in jurul elementelor. Se pot adauga borduri in directiile
+            (sus, jos, stanga si dreapta). <br />
+            Pentru a stabili in ce directie se adauga bordurile, se folosesc
+            urmatoarele proprietati:<br />
+            <strong style="margin: 20px">border-top</strong><br />
+            <strong style="margin: 20px">border-bottom</strong><br />
+            <strong style="margin: 20px">border-left</strong><br />
+            <strong style="margin: 20px">border-right</strong>
+          </li>
+        </ul>
+
+        <p><b>Proprietati pentru pozitie/afisaj:</b></p>
+        <ul style="margin-top: -10px">
+          <li style="text-decoration: underline; font-weight: bold">
+            position
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -2px">
+            <b>Exemplu</b>: position: absolute;
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -5px">
+            <b>Descriere</b>: Aceasta proprietate se foloseste pentru a stabili
+            modul in care un element este pozitionat in cadrul paginii. Exista
+            mai multe tipuri de pozitionare care determina comportamentul
+            elementului. <br />
+            Valorile de pozitionare sunt urmatoarele:<br />
+            <strong style="margin: 20px">static</strong><br />
+            <strong style="margin: 20px">relative</strong><br />
+            <strong style="margin: 20px">absolute</strong><br />
+            <strong style="margin: 20px">fixed</strong><br />
+            <strong style="margin: 20px">sticky</strong>
+          </li>
+
+          <li style="text-decoration: underline; font-weight: bold">display</li>
+          <li style="list-style: none; margin: 5px; margin-top: -2px">
+            <b>Exemplu</b>: display: flex;
+          </li>
+          <li style="list-style: none; margin: 5px; margin-top: -5px">
+            <b>Descriere</b>: Aceasta proprietate se foloseste pentru a stabili
+            modul in care un element este afisat in pagina. Proprietatea display
+            controleaza atat comportamentul vizual, cat si comportamentul
+            structural al unui element. <br />
+            Valorile sale sunt urmatoarele:<br />
+            <strong style="margin: 20px">block</strong><br />
+            <strong style="margin: 20px">inline</strong><br />
+            <strong style="margin: 20px">inline-block</strong><br />
+            <strong style="margin: 20px">flex</strong><br />
+            <strong style="margin: 20px">grid</strong>
+          </li>
+        </ul>
+
+        <p>
+          Toate informatiile despre CSS, sau cel putin o buna parte, pot fi
+          gasite pe <a href="https://www.w3schools.com/">W3Schools</a>.
+        </p>
+      </div>
+      <hr />
+    </section>
+
+    <div class="tentativa_de_footer">
+      <p>&copy; IULICA &copy;</p>
+      <p>Toate drepturile sunt rezervate😎</p>
+    </div>
+  </body>
+</html>
