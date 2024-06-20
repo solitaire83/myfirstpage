@@ -5,118 +5,228 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <h1 style="text-align: center">Multimedia</h1>
-    <div class="navdiv">
-      <div class="navbar">
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="css.html">CSS</a></li>
-          <li><a href="wikipedia.html">Wikipedia</a></li>
-          <li><a href="multimedia.html">Multimedia</a></li>
-          <li><a href="tabele.html">Tabele</a></li>
-          <li><a href="../despre.html">Despre</a></li>
-        </ul>
+    <div class="pagmultimedia">
+      <h1
+        style="
+          text-align: center;
+          color: rgb(249, 249, 249);
+          font-family: Poetsen One;
+          background-color: rgb(54, 118, 109);
+          padding: 7px;
+          border-radius: 15px;
+        "
+      >
+        &nbsp;&nbsp;&nbsp;Multimedia&nbsp;&nbsp;&nbsp;
+      </h1>
+      <div class="navdiv">
+        <div class="navbar">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <!-- <li><a href="wikipedia.html">Wikipedia</a></li> -->
+            <li><a href="github.html">Github</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="tabele.html">Tabele</a></li>
+            <li><a href="../despre.html">Despre</a></li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <div style="width: 100%; height: auto; margin-top: 15px">
+        <div
+          style="
+            background: rgb(174, 173, 173);
+            max-width: 1200px;
+            height: auto;
+            /* text-align: center; */
+            /* margin: auto; */
+            margin: 12px;
+            text-align: left;
+            margin-top: 30px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          "
+        >
+          <div
+            style="
+              background: gray;
+              color: white;
+              margin-top: -10px;
+              text-align: center;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 10px;
+            "
+          >
+            <h3>HTML &lt;img&gt; Tag</h3>
+          </div>
+          <p style="padding: 15px; margin-top: -10px">
+            <strong style="font-size: 20px">&lt;img&gt;</strong><br />
+            - Acest element HTML este folosit pentru a incorpora imagini in
+            pagina.<br />
+            - Incoroporarea unei imagini se poate face atat extern(link-ul web
+            al unei imagini) cat si intern (locatia imaginii din pc) prin
+            intermediul atributului src (sursa).<br />
+            Atribute frecvent folosite:<br />
+            <span style="margin: 15px">
+              - alt (Folosit ca alternativa pentru o imagine nefunctionala si se
+              afiseaza ca si text)</span
+            ><br />
+            <span style="margin: 15px">
+              - width (Folosit pentru a seta latimea imaginii)</span
+            ><br />
+            <span style="margin: 15px">
+              - height (Folosit pentru a seta inaltimea imaginii)</span
+            ><br />
+
+            <br />
+            Exemplu:<br />
+            &lt;img src="https://link-imagine.ro/imagine.png" alt="Text
+            Alternativ" width="1920" height="1080"&gt; (extern)
+            <br />
+            &lt;img src="../imgs/imagine.png" alt="O imagine" width="220"
+            height="220"&gt; (intern/local)
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <img
+              src="../imgs/imagine.png"
+              alt="O imagine"
+              width="220"
+              height="220"
+              style="float: right; margin-top: -220px"
+            />
+          </p>
+        </div>
+      </div>
+
+      <div style="width: 100%; height: auto; margin-top: 15px">
+        <div
+          style="
+            background: rgb(174, 173, 173);
+            width: 1500;
+            max-width: 1200px;
+            height: auto;
+            /* text-align: center; */
+            /* margin: auto; */
+            float: right;
+            margin: 12px;
+            text-align: left;
+            margin-top: 15px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          "
+        >
+          <div
+            style="
+              background: gray;
+              color: white;
+              margin-top: -10px;
+              text-align: center;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 10px;
+            "
+          >
+            <h3>HTML &lt;video&gt; Tag</h3>
+          </div>
+          <p style="padding: 15px; margin-top: -10px">
+            <strong style="font-size: 20px">&lt;video&gt;</strong><br />
+            - Acest element HTML este folosit pentru a incorpora videouri in
+            pagina.<br />
+            - Incorporarea unui video se poate face atat intern cat si extern
+            prin intermediul tagului &lt;source&gt; cu al sau atribut src.<br />
+            Atribute frecvent folosite in &lt;video&gt;:<br />
+            <span style="margin: 15px">
+              - controls (Face videoul sa fie controlabil)</span
+            ><br />
+            <span style="margin: 15px">
+              - width (Folosit pentru a seta latimea videoului)</span
+            ><br />
+            <span style="margin: 15px">
+              - height (Folosit pentru a seta inaltimea videoului)</span
+            ><br />
+            <br />
+            Exemplu:<br />
+            &lt;video width="220px" height="220px" controls&gt; &lt;source
+            src="locatie_video.mp4" type="video/mp4"&gt; &lt;/video&gt;
+
+            <video
+              width="220px"
+              height="220px"
+              controls="controls"
+              style="float: right; margin-top: -200px"
+            >
+              <source
+                src="https://static.videezy.com/system/resources/previews/000/012/318/original/Venice_5.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </p>
+        </div>
+      </div>
+
+      <div style="width: 100%; height: auto; margin-top: 15px">
+        <div
+          style="
+            background: rgb(174, 173, 173);
+            max-width: 1200px;
+            height: auto;
+            /* text-align: center; */
+            /* margin: auto; */
+            margin: 12px;
+            text-align: left;
+            margin-top: 30px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          "
+        >
+          <div
+            style="
+              background: gray;
+              color: white;
+              margin-top: -10px;
+              text-align: center;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 10px;
+            "
+          >
+            <h3>HTML &lt;audio&gt; Tag</h3>
+          </div>
+          <p style="padding: 15px; margin-top: -10px">
+            <strong style="font-size: 20px">&lt;audio&gt;</strong><br />
+            - Acest element HTML este folosit pentru a incorpora audiouri in
+            pagina.<br />
+            - Incorporarea unui audio se poate face atat intern cat si extern
+            prin intermediul tagului &lt;source&gt; cu al sau atribut src.<br />
+            Atribute frecvent folosite in &lt;audio&gt;:<br />
+            <span style="margin: 15px">
+              - controls (Face audioul sa fie controlabil)</span
+            ><br />
+            <span style="margin: 15px">
+              - autoplay (Audioul incepe redarea imediat dupa ce pagina este
+              incarcata)</span
+            ><br />
+            <span style="margin: 15px">
+              - loop (Sunetul o sa fie redat la nesfarsit dupa terminarea
+              acestuia)</span
+            ><br />
+            <br />
+            Exemplu:<br />
+            &lt;audio controls&gt; &lt;source src="locatie_audio.mp4"
+            type="audio/mpeg"&gt; &lt;/audio&gt;
+
+            <audio controls="controls" style="float: right; margin-top: -150px">
+              <source
+                src="https://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3"
+                type="audio/mp3"
+              />
+            </audio>
+          </p>
+        </div>
       </div>
     </div>
-    <!-- <h1 style="text-align: center">Prima pagina HTML</h1> -->
-    <br />
-    <hr />
-    <p>
-      <strong style="font-size: 20px">&lt;img&gt;</strong><br />
-      - Acest element HTML este folosit pentru a incorpora imagini in pagina.<br />
-      - Incoroporarea unei imagini se poate face atat extern(link-ul web al unei
-      imagini) cat si intern (locatia imaginii din pc) prin intermediul
-      atributului src (sursa).<br />
-      Atribute frecvent folosite:<br />
-      <span style="margin: 15px">
-        - alt (Folosit ca alternativa pentru o imagine nefunctionala si se
-        afiseaza ca si text)</span
-      ><br />
-      <span style="margin: 15px">
-        - width (Folosit pentru a seta latimea imaginii)</span
-      ><br />
-      <span style="margin: 15px">
-        - height (Folosit pentru a seta inaltimea imaginii)</span
-      ><br />
-
-      <br />
-      Exemplu:<br />
-      &lt;img src="https://link-imagine.ro/imagine.png" alt="Text Alternativ"
-      width="1920" height="1080"&gt; (extern)
-      <br />
-      &lt;img src="../imgs/imagine.png" alt="O imagine" width="220"
-      height="220"&gt; (intern/local)
-      <img
-        src="../imgs/imagine.png"
-        alt="O imagine"
-        width="220"
-        height="220"
-        style="float: right; margin-top: -180px"
-      />
-    </p>
-    <p>
-      <strong style="font-size: 20px">&lt;video&gt;</strong><br />
-      - Acest element HTML este folosit pentru a incorpora videouri in
-      pagina.<br />
-      - Incorporarea unui video se poate face atat intern cat si extern prin
-      intermediul tagului &lt;source&gt; cu al sau atribut src.<br />
-      Atribute frecvent folosite in &lt;video&gt;:<br />
-      <span style="margin: 15px">
-        - controls (Face videoul sa fie controlabil)</span
-      ><br />
-      <span style="margin: 15px">
-        - width (Folosit pentru a seta latimea videoului)</span
-      ><br />
-      <span style="margin: 15px">
-        - height (Folosit pentru a seta inaltimea videoului)</span
-      ><br />
-      <br />
-      Exemplu:<br />
-      &lt;video width="220px" height="220px" controls&gt; &lt;source
-      src="locatie_video.mp4" type="video/mp4"&gt; &lt;/video&gt;
-
-      <video
-        width="220px"
-        height="220px"
-        controls="controls"
-        style="float: right; margin-top: -200px"
-      >
-        <source
-          src="https://static.videezy.com/system/resources/previews/000/012/318/original/Venice_5.mp4"
-          type="video/mp4"
-        />
-      </video>
-    </p>
-
-    <p>
-      <strong style="font-size: 20px">&lt;audio&gt;</strong><br />
-      - Acest element HTML este folosit pentru a incorpora audiouri in
-      pagina.<br />
-      - Incorporarea unui audio se poate face atat intern cat si extern prin
-      intermediul tagului &lt;source&gt; cu al sau atribut src.<br />
-      Atribute frecvent folosite in &lt;audio&gt;:<br />
-      <span style="margin: 15px">
-        - controls (Face audioul sa fie controlabil)</span
-      ><br />
-      <span style="margin: 15px">
-        - autoplay (Audioul incepe redarea imediat dupa ce pagina este
-        incarcata)</span
-      ><br />
-      <span style="margin: 15px">
-        - loop (Sunetul o sa fie redat la nesfarsit dupa terminarea
-        acestuia)</span
-      ><br />
-      <br />
-      Exemplu:<br />
-      &lt;audio controls&gt; &lt;source src="locatie_audio.mp4"
-      type="audio/mpeg"&gt; &lt;/audio&gt;
-
-      <audio controls="controls" style="float: right; margin-top: -150px">
-        <source
-          src="https://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3"
-          type="audio/mp3"
-        />
-      </audio>
-    </p>
   </body>
 </html>

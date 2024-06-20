@@ -28,7 +28,8 @@
         <div class="navbar">
           <ul>
             <li><a href="pagini/css.html">CSS</a></li>
-            <li><a href="pagini/wikipedia.html">Wikipedia</a></li>
+            <!-- <li><a href="pagini/wikipedia.html">Wikipedia</a></li> -->
+            <li><a href="pagini/github.html">Github</a></li>
             <li><a href="pagini/multimedia.html">Multimedia</a></li>
             <li><a href="pagini/tabele.html">Tabele</a></li>
             <li><a href="despre.html">Despre</a></li>
@@ -43,6 +44,39 @@
     </div>
     <section class="infos">
       <div class="infoContent">
+        <br />
+        <div
+          style="
+            background: rgb(174, 173, 173);
+            max-width: 1000px;
+            height: auto;
+            text-align: center;
+            margin: auto;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          "
+        >
+          <div
+            style="
+              background: gray;
+              color: white;
+              margin-top: -10px;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 10px;
+            "
+          >
+            <h3>Ce este HTML-ul?</h3>
+          </div>
+          <p style="padding: 15px; margin-top: -10px">
+            HyperText Markup Language (HTML) este un limbaj de marcare utilizat
+            pentru crearea paginilor web ce pot fi afișate într-un browser (sau
+            navigator). Scopul HTML este mai degrabă prezentarea informațiilor
+            paragrafe, fonturi, tabele ș.a.m.d. decât descrierea semanticii
+            documentului. În cadrul dezvoltării web de tip front-end, HTML este
+            utilizat împreună cu CSS și JavaScript.
+          </p>
+        </div>
+
         <h3>Taguri si elemente populare in HTML</h3>
         <p>
           Detalii despre tagul
@@ -58,6 +92,58 @@
           Headingurile pot fi de mai multe tipuri. Ele se diferentiaza prin
           <b>numere</b>.
         </p>
+        <br />
+        <div
+          style="
+            background: rgb(174, 173, 173);
+            max-width: 700px;
+            margin: auto;
+            height: auto;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          "
+        >
+          <div
+            style="
+              background: gray;
+              color: white;
+              margin-top: -10px;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 10px;
+            "
+          >
+            <h3>Exemplu cu paragrafe si heading</h3>
+          </div>
+          <textarea
+            style="
+              padding: 5px;
+              margin-top: -10px;
+              width: 100%;
+              height: 230px;
+              background: transparent;
+              color: black;
+              resize: none;
+              text-wrap: wrap;
+            "
+            disabled
+          >
+
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Paragraf si Heading&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Lorem ipsum&lt;/h1&gt;
+    &lt;p&gt;
+      Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit...
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+          </textarea>
+        </div>
+
         <p>Headingurile sunt de mai multe tipuri:</p>
         <ol style="margin-top: -7px">
           <li>&lt;H1&gt;</li>
@@ -101,6 +187,53 @@
           <span style="color: green; font-weight: bold">&lt;body&gt;</span>
           reprezinta <b>aspectul documentului</b> HTML (vizual).
         </p>
+
+        <div
+          style="
+            background: rgb(174, 173, 173);
+            height: 156px;
+            float: right;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          "
+        >
+          <div
+            style="
+              background: gray;
+              color: white;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 10px;
+              margin-top: -10px;
+              font-size: 15px;
+            "
+          >
+            <h3>Strucutra paginii HTML</h3>
+          </div>
+          <textarea
+            style="
+              padding: 5px;
+              margin-top: -10px;
+              width: 100%;
+              height: 135px;
+              background: transparent;
+              color: black;
+              resize: none;
+              text-wrap: wrap;
+            "
+            disabled
+          >
+
+&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    </textarea
+          >
+        </div>
+
         <p>
           Head,
           <span style="color: green; font-weight: bold">&lt;head&gt;</span>
@@ -120,6 +253,7 @@
             a <b>adauga un favicon</b> paginii.</strong
           >
         </p>
+
         <p>
           <span style="color: green; font-weight: bold">Inputul</span>
           este un <b>selfclosing tag</b>, flosit pentru a
@@ -302,17 +436,26 @@
 
         <p>
           Toate informatiile despre HTML, sau cel putin o buna parte, pot fi
-          gasite pe <a href="https://www.w3schools.com/">W3Schools</a>.
+          gasite pe <a href="https://www.w3schools.com/">W3Schools</a>, sau poti
+          simula o pagina HTML live chiar aici😎👇.
         </p>
+        <br />
+        <div style="width: 100%; display: flex; justify-content: center">
+          <div class="iframeDiv">
+            <iframe
+              class="responsiveiframe"
+              height="390"
+              width="1000"
+              src="https://onecompiler.com/html"
+              title="onecompiler"
+              loading="lazy"
+              data-readystate="complete"
+            ></iframe>
+          </div>
+        </div>
       </div>
       <hr />
     </section>
-
-    <!-- <p><a href="despre.html">Despre</a></p>
-    <p><a href="/pagini/tabele.html">Detalii despre tabele</a></p>
-    <p><a href="pagini/formular.html">Formulare</a></p>
-    <p><a href="pagini/wikipedia.html">Wikipedia</a></p>
-    <p><a href="pagini/multimedia.html">Multimedia</a></p> -->
 
     <div class="tentativa_de_footer">
       <p>&copy; IULICA &copy;</p>

@@ -32,109 +32,164 @@
     </style>
   </head>
   <body>
-    <h1 style="text-align: center">Tabele</h1>
-    <div class="navdiv">
-      <div class="navbar">
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="css.html">CSS</a></li>
-          <li><a href="wikipedia.html">Wikipedia</a></li>
-          <li><a href="multimedia.html">Multimedia</a></li>
-          <li><a href="tabele.html">Tabele</a></li>
-          <li><a href="../despre.html">Despre</a></li>
-        </ul>
+    <div class="pagtable">
+      <h1
+        style="
+          text-align: center;
+          color: rgb(249, 249, 249);
+          font-family: Poetsen One;
+          background-color: rgb(54, 118, 109);
+          padding: 7px;
+          border-radius: 15px;
+        "
+      >
+        &nbsp;&nbsp;&nbsp;Tabele&nbsp;&nbsp;&nbsp;
+      </h1>
+      <div class="navdiv">
+        <div class="navbar">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <!-- <li><a href="wikipedia.html">Wikipedia</a></li> -->
+            <li><a href="github.html">Github</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="tabele.html">Tabele</a></li>
+            <li><a href="../despre.html">Despre</a></li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <br />
+      <br />
+      <div
+        style="
+          background: rgb(174, 173, 173);
+          max-width: 1000px;
+          height: auto;
+          text-align: center;
+          margin: auto;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        "
+      >
+        <div
+          style="
+            background: gray;
+            color: white;
+            margin-top: -10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          "
+        >
+          <h3>Tabele</h3>
+        </div>
+        <p style="padding: 15px; margin-top: -10px">
+          Tabelele HTML permit dezvoltatorilor web să aranjeze datele în rânduri
+          și coloane.<br />
+
+          Un tabel în HTML constă din celule de tabel în interiorul rândurilor
+          și coloanelor.
+        </p>
+      </div>
+      <br />
+      <br />
+      <div style="width: 100%; display: flex; justify-content: center">
+        <div class="iframeDiv">
+          <iframe
+            class="responsiveiframe"
+            height="390"
+            width="1000"
+            src="https://interactive-examples.mdn.mozilla.net/pages/tabbed/table.html"
+            title="MDN Web Docs Interactive Example"
+            allow="clipboard-write"
+            loading="lazy"
+            data-readystate="complete"
+          ></iframe>
+        </div>
+      </div>
+      <p>Exemplu tabele:</p>
+      <div
+        style="
+          width: 800px;
+          height: 50;
+          display: flex;
+          flex-direction: row;
+          margin: 5px;
+        "
+      >
+        <table style="margin-right: 15px">
+          <thead>
+            <tr>
+              <th>Nr.</th>
+              <th>Nume</th>
+              <th>Prenume</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Condruz</td>
+              <td>Iulian</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Condruz</td>
+              <td>Iulian</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table style="margin-right: 15px">
+          <thead>
+            <tr>
+              <th>Tag</th>
+              <th>Descriere</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&lt;table&gt;</td>
+              <td>Tabela propriu-zisa</td>
+            </tr>
+            <tr>
+              <td>&lt;tr&gt;</td>
+              <td>Table row/rand in tabela</td>
+            </tr>
+            <tr>
+              <td>&lt;th&gt;</td>
+              <td>Table header/celula de antet în tabela</td>
+            </tr>
+            <tr>
+              <td>&lt;td&gt;</td>
+              <td>Table data/celula de date în tabela</td>
+            </tr>
+            <tr>
+              <td>&lt;thead&gt;</td>
+              <td>Table head/sectiunea de antet a tabelei</td>
+            </tr>
+            <tr>
+              <td>&lt;tbody&gt;</td>
+              <td>Table body/corpul tabelei</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="ALTSTIL">
+          <thead>
+            <tr>
+              <th>Nume</th>
+              <th>Prenume</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Condruz</td>
+              <td>Iulian</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
-    <!-- <h1 style="text-align: center">Prima pagina HTML</h1> -->
-    <br />
-    <hr />
-    <p>Exemplu tabel:</p>
-    <table>
-      tab 1
-      <thead>
-        <tr>
-          <th>Nr.</th>
-          <th>Nume</th>
-          <th>Prenume</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Condruz</td>
-          <td>Iulian</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Condruz</td>
-          <td>Iulian</td>
-        </tr>
-      </tbody>
-    </table>
-    <br />
-
-    <table>
-      <thead>
-        <tr>
-          <th>Tag</th>
-          <th>Descriere</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>&lt;table&gt;</td>
-          <td>Tabela propriu-zisa</td>
-        </tr>
-        <tr>
-          <td>&lt;tr&gt;</td>
-          <td>Table row/rand in tabela</td>
-        </tr>
-        <tr>
-          <td>&lt;th&gt;</td>
-          <td>Table header/celula de antet în tabela</td>
-        </tr>
-        <tr>
-          <td>&lt;td&gt;</td>
-          <td>Table data/celula de date în tabela</td>
-        </tr>
-        <tr>
-          <td>&lt;thead&gt;</td>
-          <td>Table head/sectiunea de antet a tabelei</td>
-        </tr>
-        <tr>
-          <td>&lt;tbody&gt;</td>
-          <td>Table body/corpul tabelei</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <br />
-
-    <table class="ALTSTIL">
-      tabela 3 cu alt stil
-      <thead>
-        <tr>
-          <th>Nume</th>
-          <th>Prenume</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Condruz</td>
-          <td>Iulian</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <hr />
-    <p>
-      <a href="../index.html">Acasa</a>
-    </p>
-    <p>
-      <a href="../despre.html">Despre</a>
-    </p>
-    <p>
-      <a href="formular.html">Formulare</a>
-    </p>
   </body>
 </html>
