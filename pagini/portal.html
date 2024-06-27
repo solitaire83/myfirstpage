@@ -1,0 +1,385 @@
+<html>
+  <head>
+    <title>Portal</title>
+    <link rel="stylesheet" href="../style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background: linear-gradient(
+          4deg,
+          #28c79e,
+          #96ce48,
+          #3e499a,
+          #97a0e3,
+          #6fcf05,
+          #9910b7,
+          #329517,
+          #00e4ff,
+          #e6f400
+        );
+        background-size: 1800% 1800%;
+
+        -webkit-animation: _gradient 16s ease infinite;
+        -moz-animation: _gradient 16s ease infinite;
+        animation: _gradient 16s ease infinite;
+      }
+
+      @-webkit-keyframes _gradient {
+        0% {
+          background-position: 0% 60%;
+        }
+        50% {
+          background-position: 100% 41%;
+        }
+        100% {
+          background-position: 0% 60%;
+        }
+      }
+      @-moz-keyframes _gradient {
+        0% {
+          background-position: 0% 60%;
+        }
+        50% {
+          background-position: 100% 41%;
+        }
+        100% {
+          background-position: 0% 60%;
+        }
+      }
+      @keyframes _gradient {
+        0% {
+          background-position: 0% 60%;
+        }
+        50% {
+          background-position: 100% 41%;
+        }
+        100% {
+          background-position: 0% 60%;
+        }
+      }
+
+      img {
+        transition: transform 0.3s ease;
+      }
+
+      img:hover {
+        transform: scale(0.9);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div
+      style="
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        text-align: center;
+
+        flex-direction: column;
+      "
+    >
+      <h1>Under construction<br />🚜🏗️🚧👷</h1>
+      <button
+        style="
+          width: 100px;
+          height: 50px;
+          align-items: center;
+          margin-top: -30px;
+        "
+        onclick="window.location.href='../index.html';"
+      >
+        Inapoi acasa!
+      </button>
+    </div> -->
+
+    <div
+      style="
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: red; */
+      "
+    >
+      <div style="width: auto; height: auto; text-align: center">
+        <h1
+          style="
+            font-family: Kanit;
+            font-weight: 900;
+            font-size: 70px;
+            margin: 0;
+          "
+        >
+          Portal
+        </h1>
+        <h2 style="font-family: Kanit; margin: -30px 0 0; font-size: 35px">
+          Selecteaza destinatia
+        </h2>
+      </div>
+
+      <div
+        class="portal"
+        style="
+          width: 300px;
+          height: auto;
+          display: flex;
+          flex-wrap: wrap;
+          /* justify-content: center; */
+          /* border: 2px solid red; */
+        "
+      >
+        <a href="../index.html">
+          <img
+            id="home"
+            src="../imgs/home.png"
+            style="
+              width: 100px;
+              height: 100x;
+              background-color: rgb(28, 141, 206);
+              border-top-left-radius: 5px;
+              border-top-right-radius: 5px;
+            "
+          />
+        </a>
+        <a href="https://github.com/solitaire83">
+          <img
+            id="github"
+            src="../imgs/github.png"
+            style="
+              width: 100px;
+              height: 100px;
+              background-color: white;
+              border-top-left-radius: 5px;
+              border-top-right-radius: 5px;
+            "
+          />
+        </a>
+        <a>
+          <img
+            id="git"
+            src="../imgs/git.png"
+            style="
+              width: 100px;
+              height: 100x;
+              background-color: rgb(255, 182, 72);
+              border-top-left-radius: 5px;
+              border-top-right-radius: 5px;
+            "
+          />
+        </a>
+        <a>
+          <img
+            id="terminal"
+            src="../imgs/terminal.png"
+            style="
+              width: 100px;
+              height: 100x;
+              background-color: rgb(141, 255, 1);
+              border-bottom-left-radius: 5px;
+            "
+          />
+        </a>
+        <a>
+          <img
+            id="javascript"
+            src="../imgs/javascript.png"
+            style="
+              width: 100px;
+              height: 100x;
+              background-color: rgb(0, 242, 255);
+            "
+          />
+        </a>
+        <a href="https://solitaire83.github.io/myfirstpage/altcv/">
+          <img
+            id="itschool"
+            src="../imgs/it.png"
+            style="
+              width: 100px;
+              height: 100x;
+              background-color: black;
+              border-bottom-right-radius: 5px;
+            "
+          />
+        </a>
+      </div>
+    </div>
+
+    <div class="portalcontent" id="gitcontent">
+      <div class="navbarportal">
+        <h1 style="font-weight: 900">
+          <img src="../imgs/git.png" style="width: 20px; height: 20px" />GIT
+        </h1>
+        <button onclick="hidediv()">inapoi</button>
+      </div>
+
+      <div class="terminal">
+        <div class="terminalwTitle">
+          <div class="terminaltab">
+            <img
+              src="../imgs/terminal.png"
+              style="
+                width: 20px;
+                height: 20px;
+                margin-left: 10px;
+                margin-right: 6px;
+              "
+            />
+            Command Prompt
+          </div>
+
+          <div class="terminalotherbuttons">
+            <a
+              style="
+                border-right: 2px solid #1b1b1b;
+                padding-right: 15px;
+                margin-left: 20px;
+              "
+              >+</a
+            >
+            <a style="margin-top: -15px">⌄</a>
+          </div>
+        </div>
+
+        <div class="terminaltyping">
+          <p id="comanda">C:\Users\Iulica></p>
+          <p id="descriere" style="color: green"></p>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+
+    <div class="portalcontent" id="terminalcontent">
+      <div class="navbarportal">
+        <h1>
+          <img
+            src="../imgs/terminal.png"
+            style="width: 24px; height: 24px"
+          />Terminal
+        </h1>
+        <button onclick="hidediv()">Inapoi</button>
+      </div>
+
+      <div class="terminal">
+        <div class="terminalwTitle">
+          <div class="terminaltab">
+            <img
+              src="https://cdn.iconscout.com/icon/free/png-256/free-powershell-3521649-2945093.png"
+              style="
+                width: 20px;
+                height: 20px;
+                margin-left: 10px;
+                margin-right: 6px;
+              "
+            />
+            Windows PowerShell
+          </div>
+
+          <div class="terminalotherbuttons">
+            <a
+              style="
+                border-right: 2px solid #1b1b1b;
+                padding-right: 15px;
+                margin-left: 20px;
+              "
+              >+</a
+            >
+            <a style="margin-top: -15px">⌄</a>
+          </div>
+        </div>
+
+        <div class="terminaltyping">
+          <p id="comanda2">PS C:\Users\Iulica></p>
+          <p id="descriere2" style="color: green"></p>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+
+    <div class="portalcontent" id="javascriptcontent">
+      <div class="navbarportal">
+        <h1>
+          <img
+            src="../imgs/javascript.png"
+            style="width: 24px; height: 24px"
+          />Javascript
+        </h1>
+        <button onclick="hidediv()">inapoi</button>
+      </div>
+
+      <div
+        style="
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;
+        "
+      >
+        <div class="iframeDiv">
+          <iframe
+            id="_onecompiler"
+            class="responsiveiframe"
+            height="390"
+            width="1000"
+            src="https://onecompiler.com/javascript"
+            title="onecompiler"
+            loading="lazy"
+            data-readystate="complete"
+          ></iframe>
+        </div>
+      </div>
+
+      <div
+        style="
+          background: rgb(174, 173, 173);
+          max-width: 1000px;
+          height: auto;
+          text-align: center;
+          margin: auto;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          margin-top: 15px;
+        "
+      >
+        <div
+          style="
+            background: gray;
+            color: white;
+            margin-top: -10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          "
+        >
+          <h3>Ce este Javascript?</h3>
+        </div>
+        <p style="padding: 15px; margin-top: -10px">
+          JavaScript (JS) este un limbaj de programare orientat obiect bazat pe
+          conceptul prototipurilor. Este folosit mai ales pentru introducerea
+          unor funcționalități în paginile web, codul JavaScript din aceste
+          pagini fiind rulat de către browser. Limbajul este binecunoscut pentru
+          folosirea sa în construirea siteurilor web, dar este folosit și pentru
+          accesul la obiecte încapsulate (embedded objects) în alte aplicații. A
+          fost dezvoltat inițial de către Brendan Eich de la Netscape
+          Communications Corporation sub numele de Mocha, apoi LiveScript, și
+          denumit în final JavaScript.
+        </p>
+      </div>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
