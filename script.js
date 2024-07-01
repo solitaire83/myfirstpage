@@ -80,7 +80,7 @@ document
 /* ===================================================== VARIABILE, CONSTANTE s.a.m.d ===================================================== */
 var TIMEOUT_GIT;
 var TIMEOUT_TERMINAL;
-var USEDFACTS = [];
+//var USEDFACTS = [];
 /* ===================================================== GIT ===================================================== */
 function startGit() {
   clearTimeout(TIMEOUT_GIT);
@@ -248,7 +248,7 @@ document.getElementById("terminal").addEventListener("click", function () {
   console.log("Afisez continutul terminalului..");
 });
 
-var facts_term = [
+/*var facts_term = [
   "In majoritatea sistemelor de operare bazate pe Unix, terminalul este o interfata de \nutilizator text pentru a comunica cu sistemul de operare mai repede si mai eficient.",
   "Exista comenzi specializate pentru retea, cum ar fi 'ping' pentru a \nverifica conectivitatea cu un alt computer și 'ssh' pentru a accesa un server de la distanta.",
   "Pentru manipularea fisierelor si directoarelor, poti folosi comenzi precum 'cp' pentru a copia, \n'mv' pentru a muta și 'rm' pentru a sterge.",
@@ -269,4 +269,4 @@ function TERMINALFACTS() {
 
   USEDFACTS.push(random);
   return facts_term[random];
-}
+}*/
